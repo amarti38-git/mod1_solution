@@ -24,7 +24,7 @@
                 $scope.fontColor = "red";
             }
             else {
-                $scope.message = (numItems <= 3)? "Enjoy" : "Too much!";
+                $scope.message = (numItems <= 3)? "Enjoy!" : "Too much!";
                 $scope.fontColor = "green";
             }
         }
